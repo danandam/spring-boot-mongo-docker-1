@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: dockerhandson/spring-boot-mongo:latest
+    image: harikbab/spring-boot-mongo-docker:1
     restart: always # This will be ignored if we deploy in docker swarm
     container_name: springboot
     ports:
